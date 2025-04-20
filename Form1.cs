@@ -73,27 +73,52 @@ namespace EncryptCode
 
         private void generateCodes(string FileName, string ShellCode)
         {
-            byte[] encryptBytes = encryptModes.EncryptAES(System.Text.Encoding.UTF8.GetBytes(textBoxShellCode.Text));
-            string encryptString = encryptModes.ConvertByteArrayToStringCSharp(encryptBytes);
-
-            byte[] dectrypteString = encryptModes.DecryptAES(encryptBytes);
-
-            string hexDebug = encryptModes.ConvertByteArrayToStringCSharp(dectrypteString);
-            string decryptedText = Encoding.UTF8.GetString(dectrypteString);
-
-            string code = encryptModes.GetDecryptAESCodeAsString();
-
             string path = generatePath(textBox1.Text);
 
-            if (!File.Exists(path))
+            if (comboBoxEncrypt.SelectedIndex == 1 && comboBoxLanguage.SelectedIndex == 1) // C# + AES
             {
-                using (StreamWriter sw = File.CreateText(path))
+                byte[] encryptBytes = encryptModes.EncryptAES(Encoding.UTF8.GetBytes(textBoxShellCode.Text));
+                string encryptString = encryptModes.ConvertByteArrayToStringCSharp(encryptBytes);
+
+                byte[] decryptString = encryptModes.DecryptAES(encryptBytes);
+
+                string hexDebug = encryptModes.ConvertByteArrayToStringCSharp(decryptString);
+                string decryptedText = Encoding.UTF8.GetString(decryptString);
+
+                string code = encryptModes.GetDecryptAESCodeAsString();
+
+                if (!File.Exists(path))
                 {
-                    sw.WriteLine(encryptModes.getKeyAndIV());
-                    sw.WriteLine(Environment.NewLine + $"Original Message: {textBoxShellCode.Text}" + Environment.NewLine);
-                    sw.WriteLine(Environment.NewLine + $"Encrypt Message: byte[] encrypt = {{ {encryptString} }};" + Environment.NewLine);
-                    sw.WriteLine(Environment.NewLine + $"Decrypt Message: {decryptedText}" + Environment.NewLine);
-                    sw.WriteLine(Environment.NewLine + $"Code to Decrypt: {code}" + Environment.NewLine);
+                    using (StreamWriter sw = File.CreateText(path))
+                    {
+                        sw.WriteLine(encryptModes.getKeyAndIV());
+                        sw.WriteLine(Environment.NewLine + $"Original Message: {textBoxShellCode.Text}" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Encrypt Message: byte[] encrypt = {{ {encryptString} }};" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Decrypt Message: {decryptedText}" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Code to Decrypt: {code}" + Environment.NewLine);
+                    }
+                }
+            }
+            else if (comboBoxEncrypt.SelectedIndex == 0 && comboBoxLanguage.SelectedIndex == 1) // C# + XOR
+            {
+                byte[] encryptBytes = encryptModes.EncryptAndDecryptXOR(Encoding.UTF8.GetBytes(textBoxShellCode.Text));
+                string encryptString = encryptModes.ConvertByteArrayToStringCSharp(encryptBytes);
+
+                byte[] decryptBytes = encryptModes.EncryptAndDecryptXOR(encryptBytes);
+                string decryptedText = Encoding.UTF8.GetString(decryptBytes);
+
+                string code = encryptModes.getXOREncryptAndDecryptAsString();
+
+                if (!File.Exists(path))
+                {
+                    using (StreamWriter sw = File.CreateText(path))
+                    {
+                        sw.WriteLine(encryptModes.getKeyAndIV());
+                        sw.WriteLine(Environment.NewLine + $"Original Message: {textBoxShellCode.Text}" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Encrypt Message: byte[] encrypt = {{ {encryptString} }};" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Decrypt Message: {decryptedText}" + Environment.NewLine);
+                        sw.WriteLine(Environment.NewLine + $"Code to Decrypt: {code}" + Environment.NewLine);
+                    }
                 }
             }
         }

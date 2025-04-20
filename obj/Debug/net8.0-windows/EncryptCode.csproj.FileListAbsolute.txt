@@ -14,3 +14,4 @@ C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\refint\
 C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.pdb
 C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.genruntimeconfig.cache
 C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\ref\EncryptCode.dll
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.sourcelink.json

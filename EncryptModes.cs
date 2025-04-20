@@ -22,18 +22,17 @@ namespace EncryptCode
             }
         }
 
-        public string getKeyAndIV()
+        public byte[] EncryptAndDecryptXOR(byte[] byteArray)
         {
-            string KEY = ConvertByteArrayToStringCSharp(key);
-            string IV = ConvertByteArrayToStringCSharp(iv);
-            return $"byte[] key = {{ {KEY} }}; "+ Environment.NewLine + $"byte[] IV = {{ {IV} }};";
+            byte[] encryptByteArray = new byte[byteArray.Length];
+            for (int i = 0; i < byteArray.Length; i++)
+            {
+                encryptByteArray[i] = (byte)(byteArray[i] ^ key[i % key.Length]);
+            }
+
+            return encryptByteArray;
         }
 
-        public string ConvertByteArrayToStringCSharp(byte[] byteArray)
-        {
-            string hexString = string.Join(", ", byteArray.Select(x => $"0x{x:X2}"));
-            return hexString;
-        }
 
         public byte[] EncryptAES(byte[] byteArray)
         {
@@ -64,6 +63,19 @@ namespace EncryptCode
             }
         }
 
+        public string getKeyAndIV()
+        {
+            string KEY = ConvertByteArrayToStringCSharp(key);
+            string IV = ConvertByteArrayToStringCSharp(iv);
+            return $"byte[] key = {{ {KEY} }}; " + Environment.NewLine + $"byte[] IV = {{ {IV} }};";
+        }
+
+        public string ConvertByteArrayToStringCSharp(byte[] byteArray)
+        {
+            string hexString = string.Join(", ", byteArray.Select(x => $"0x{x:X2}"));
+            return hexString;
+        }
+
         public string GetDecryptAESCodeAsString()
         {
             return @"
@@ -81,6 +93,21 @@ public byte[] DecryptAES(byte[] byteArray)
     }
 }
 ";
+        }
+
+        public string getXOREncryptAndDecryptAsString()
+        {
+            return @"
+public byte[] EncryptAndDecryptXOR(byte[] byteArray)
+        {
+            byte[] encryptByteArray = new byte[byteArray.Length];
+            for (int i = 0; i < byteArray.Length; i++)
+            {
+                encryptByteArray[i] = (byte)(byteArray[i] ^ key[i % key.Length]);
+            }
+
+            return encryptByteArray;
+        }";
         }
     }
 }
