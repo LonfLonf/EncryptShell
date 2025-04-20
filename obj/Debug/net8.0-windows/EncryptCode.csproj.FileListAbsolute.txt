@@ -1,0 +1,16 @@
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\bin\Debug\net8.0-windows\EncryptCode.exe
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\bin\Debug\net8.0-windows\EncryptCode.deps.json
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\bin\Debug\net8.0-windows\EncryptCode.runtimeconfig.json
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\bin\Debug\net8.0-windows\EncryptCode.dll
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\bin\Debug\net8.0-windows\EncryptCode.pdb
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.Form1.resources
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.csproj.GenerateResource.cache
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.AssemblyInfoInputs.cache
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.AssemblyInfo.cs
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.csproj.CoreCompileInputs.cache
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.dll
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\refint\EncryptCode.dll
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.pdb
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\EncryptCode.genruntimeconfig.cache
+C:\Users\firey\Documents\FODASEEEEE\EncryptCode\obj\Debug\net8.0-windows\ref\EncryptCode.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptCode", "EncryptCode.csproj", "{97486BAF-1DA4-4E9E-B530-30866C51756E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97486BAF-1DA4-4E9E-B530-30866C51756E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97486BAF-1DA4-4E9E-B530-30866C51756E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97486BAF-1DA4-4E9E-B530-30866C51756E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97486BAF-1DA4-4E9E-B530-30866C51756E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CB73F23-006F-4C3D-BBCD-58C4039C6562}
+	EndGlobalSection
+EndGlobal
