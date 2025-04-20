@@ -41,7 +41,6 @@ namespace EncryptCode
             }
 
             generateCodes(textBox1.Text, textBoxShellCode.Text);
-            setConfigLabel("Correct", "Green", true);
         }
 
         private bool checkAllTheInputs()
@@ -98,6 +97,7 @@ namespace EncryptCode
                         sw.WriteLine(Environment.NewLine + $"Code to Decrypt: {code}" + Environment.NewLine);
                     }
                 }
+                setConfigLabel("Generated C# + AES", "Green", true);
             }
             else if (comboBoxEncrypt.SelectedIndex == 0 && comboBoxLanguage.SelectedIndex == 1) // C# + XOR
             {
@@ -120,6 +120,11 @@ namespace EncryptCode
                         sw.WriteLine(Environment.NewLine + $"Code to Decrypt: {code}" + Environment.NewLine);
                     }
                 }
+                setConfigLabel("Generated C# + XOR", "Green", true);
+            }
+            else
+            {
+                setConfigLabel("I'm too lazy to do the XOR and AES in C, probably in a few days or weeks.", "Red", true);
             }
         }
     }

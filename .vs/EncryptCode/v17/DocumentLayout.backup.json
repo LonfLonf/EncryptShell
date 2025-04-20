@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\encryptmodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:encryptmodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|c:\\users\\firey\\documents\\fodaseeeee\\encryptcode\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{97486BAF-1DA4-4E9E-B530-30866C51756E}|EncryptCode.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,8 +45,12 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -54,24 +58,25 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:38:36.739Z"
+              "WhenOpened": "2025-04-19T19:38:36.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EncryptModes.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\EncryptModes.cs",
               "RelativeDocumentMoniker": "EncryptModes.cs",
               "ToolTip": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\EncryptModes.cs",
               "RelativeToolTip": "EncryptModes.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwGEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T00:09:11.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\Form1.resx",
               "RelativeDocumentMoniker": "Form1.resx",
@@ -89,14 +94,14 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwv0oAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAjwEoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T19:38:48.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -108,12 +113,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\firey\\Documents\\FODASEEEEE\\EncryptCode\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
